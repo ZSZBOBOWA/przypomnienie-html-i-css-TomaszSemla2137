@@ -16,3 +16,9 @@ display: inline-block;
 .blok4 {
     background-color: yellow;
 }
+.blok1, .blok2, .blok3, .blok4 {
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    line-height: 100px;
+}
