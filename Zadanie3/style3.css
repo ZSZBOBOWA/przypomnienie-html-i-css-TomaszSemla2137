@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header 
+{
+text-align: center;
+background-color:red ;
+height: 120px;
+}
+nav 
+{
+    height: 400px;
+    width: 20%;
+     float: left;
+     background-color:green ;
+    }
+main 
+{
+    height: 400px;
+    width: 60%;
+     float: left;
+     background-color:orange ;
+     text-align: center;
+    }
+aside
+ {
+    height: 400px;
+    width: 20%;
+     float: left;
+     background-color:purple ;
+    }
+footer
+ {
+    height: 60px;
+text-align: center;
+clear: both;
+background-color:violet ;
+ }
+ .head
+ {
+   padding: 50px ;
+ }
+ .nav
+{padding: 50px ;}
+ .main
+{padding: 50px ;}
+ .boczny
+{padding: 50px ;}
+ .stopa
+ {padding: 20px ;}
