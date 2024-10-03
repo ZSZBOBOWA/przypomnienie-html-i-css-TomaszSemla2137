@@ -7,20 +7,25 @@ main {
 background-color: red;
 float: left;
 width:30% ;
+text-align: center;
 }
 nav {
+    text-align: center;
     height: 400px;
     background-color:orange ;
     float: left;
     width:50% 
+    
 }
 aside{
+    text-align: center;
     height: 400px;
     background-color:yellow ;
     float: left;
     width: 20%
 }
 footer {
+    text-align: center;
     background-color:purple ;
 clear: both;
 height: 60px;
