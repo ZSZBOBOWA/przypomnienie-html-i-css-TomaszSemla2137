@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    font-family: 'Cambria';
+background-color:#E1BEE7 ;
+width: 25%;
+float: left;
+height:400px ;
+}
+
+header {
+    font-size: 170%;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Cambria';
+    text-align: center;
+    background-color:#9C64A6 ;
+    float: left;
+    height: 150px; ;
+    width: 75%;
+}
+
+main {
+    font-size: 170%;
+    color: indigo;
+    font-family: 'Cambria';
+    text-align: center;
+    background-color:white ;
+    float: right;
+    height: 580px ;
+    width: 75%;
+}
+
+Aside {
+    font-family: 'Cambria';
+    background-color:#E1BEE7;
+    width: 25%;
+    float: left;
+    height:330px ;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    font-family: 'Cambria';
+    background-color:#9C64A6 ;
+    width: 100%;
+    height:50px;
+    clear: both;
+}
+h1 {
+    line-height: 90px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.pani {
+    height:auto ;
+    width: 240px;
+}
+.zdjęcie1{
+    margin: 15px;
+    padding: 4px;
+}
+.kwiaty{
+    height: auto;
+    width: 700px;
+    margin: 15px;
+    padding: 4px;
+}
+.punkt{
+    padding: 40px;
+    line-height: 20px;
+}
+.główna{
+    padding: 25px;
+}
+ul{
+padding-left: 45px;
+}
+.telefon{
+    line-height: 140px;
+}
+h5{
+    line-height: 70px;
+}
+img:hover {
+    padding: 3px;
+    border: 1px dashed indigo;
+}
+.hah{
+    line-height: 90px;
+}
