@@ -15,7 +15,7 @@
     <li>Maska</li></ul>
     <li>Masaż</li>
 <li>Makijaż</li></ol>
-<a href="" class="główna"> Strona główna</a>
+<a href="Index5.html" class="główna"> Strona główna</a>
 </div>
     </nav>
 
@@ -25,13 +25,13 @@
 
     <main>
         <h2 class="cena">Kalkulator ceny wizyty</h2>
-        <form>
-            <input type="checkbox" id="peelin">peeling<br>
-            <input type="checkbox" id="maska"> maska<br>
-            <input type="checkbox" id="masaż"> masaż twarzy<br>
-            <input type="checkbox" id="makijaż"> makijaż<br>
-            <button type="submit" id="suma">Oblicz cenę</button><br>
-            Cena: 
+        <form id="kalkulatorForm">
+            <input type="checkbox" id="peelin" value="50">peeling<br>
+            <input type="checkbox" id="maska" value="30">maska<br>
+            <input type="checkbox" id="masaż" value="40">masaż twarzy<br>
+            <input type="checkbox" id="makijaż" value="60">makijaż<br>
+            <button type="button" id="suma">Oblicz cenę</button><br>
+            Cena: <span id="wynik">0</span> zł
         </form>
     </main>
 
@@ -45,13 +45,15 @@
 Autor: 0000000000.
     </footer>
 <script>
-    var peel = document.getElementById("peelin");
-    var mas = document.getElementById("maska");
-    var masa = document.getElementById("masaż");
-    var maki = document.getElementById("makijaż");
-    var sum = peel + mas + masa + maki;
-    document
-    
+    document.getElementById("suma").addEventListener("click", function() {
+            var peel = document.getElementById("peelin").checked ? parseInt(document.getElementById("peelin").value) : 0;
+            var maska = document.getElementById("maska").checked ? parseInt(document.getElementById("maska").value) : 0;
+            var masaz = document.getElementById("masaż").checked ? parseInt(document.getElementById("masaż").value) : 0;
+            var makijaz = document.getElementById("makijaż").checked ? parseInt(document.getElementById("makijaż").value) : 0;
+
+            var suma = peel + maska + masaz + makijaz;
+            document.getElementById("wynik").innerText = suma;
+        });
 </script>
 </body>
 </html>
